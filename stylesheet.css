@@ -29,6 +29,7 @@ body{
 }
 .top-img img {
   width: 70%;
+  height: 100%;
   float: right;
   padding: 0;
   }
@@ -84,6 +85,16 @@ footer{
 footer p{
   font-size: 2rem;
 }
+.me{
+  float: left;
+}
+.introduction{
+  float: right;
+}
+iframe{
+  width: 640px;
+  height: 320px;
+}
 
 
 
@@ -110,8 +121,34 @@ body,html{
 }
 }
 
-@media(max-width: 700px){
-  .col-sm-12{
-    width: 100%;
+@media(max-width: 1000px){
+
+  iframe{
+  width: 500px;
+  height: 250px;
   }
+}
+
+@media(max-width: 648px){
+  /* .col-sm-12{
+    width: 100%;
+  } */
+  .me , .introduction{
+  clear: both;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  }
+  .me{
+    margin-bottom: 2rem;
+  }
+  .bg-base h1{
+    text-align: center;
+  }
+  .top-img img {
+  width: 100%;
+  clear: both;
+  padding: 0;
+  }
+
 }
