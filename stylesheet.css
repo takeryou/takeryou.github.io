@@ -98,6 +98,7 @@ iframe{
 .me{
    height:300px;
    weight: 300px;
+   border-radius: 100px;
 }
 
 
@@ -137,6 +138,7 @@ body,html{
   iframe{
     display: block;
     width: 100%;
+    padding: 0;
   }
   .vimeo p {
     font-size: 2rem;
