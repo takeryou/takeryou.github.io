@@ -95,7 +95,10 @@ iframe{
   width: 640px;
   height: 320px;
 }
-
+.me{
+   height:300px;
+   weight: 300px;
+}
 
 
 @media(max-width: 1500px){
@@ -127,6 +130,10 @@ body,html{
   width: 500px;
   height: 250px;
   }
+  .me{
+   height:200px;
+   weight: 200px;
+}
 }
 
 @media(max-width: 648px){
@@ -150,5 +157,24 @@ body,html{
   clear: both;
   padding: 0;
   }
-
+  iframe{
+  width: 300px;
+  height: 150px;
+  }
+  .me{
+   height:150px;
+   weight: 150px;
+  }
+  .small-p {
+    font-size: 0.8rem;
+  }
+  .vimeo p {
+    font-size: 1rem;
+  }
+  .works h1{
+    font-size: 2rem;
+  }
+  .introduction h3{
+    font-size: 1.5rem;
+  }
 }
