@@ -124,7 +124,7 @@ body,html{
 }
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1024px){
 
   iframe{
   width: 500px;
@@ -133,7 +133,14 @@ body,html{
   .me{
    height:200px;
    weight: 200px;
-}
+  }
+  iframe{
+    display: block;
+    width: 100%;
+  }
+  .vimeo p {
+    font-size: 2rem;
+  }
 }
 
 @media(max-width: 770px){
@@ -165,7 +172,7 @@ body,html{
     font-size: 0.8rem;
   }
   .vimeo p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .works h1{
     font-size: 2rem;
@@ -173,14 +180,16 @@ body,html{
   .introduction h3{
     font-size: 1.5rem;
   }
-
 }
 @media(max-width: 500px){
-  iframe{
+  /* iframe{
   width: 300px;
   height: 150px;
-  }
+  } */
   .margin{
    margin-top: 5rem;
+  }
+  .vimeo p {
+    font-size: 1rem;
   }
 }
